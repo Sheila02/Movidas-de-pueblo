@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <DIV CLASS=menu>
+        <ul>
+            <li style="list-style-type: none;"><a href="HTML.html">INICIO</a></li>
+            <li style="list-style-type: none;"><a href=juegos.html>RADIO</a></li>
+            <li style="list-style-type: none;"><a href="Novedades.html">NOVEDADES</a></li>
+            <li style="list-style-type: none;"><a href="contacto.html">CONTACTO</a></li>
+
+        </ul>
+    </DIV>
+
+    <div class=ventana id='vent'>
+        <div class=cerrar>
+         <a href="javascript:cerrar()"> <img src=error.png width="30px" height="30px"> </a>
+        </div>
+
+        <p>Tu mensaje ha sido enviado YUPIII!!! <br>Ahora lo veremos <br><br> <img src=foto.gif.gif height="200px" width="200px"></p>
+
+
+    
+
+    </div>
+
+
+    <div class=contacto>
+        <div id=page>
+
+            <form name="contacto">
+                <legend>-- Ponte en contacto con nosotros --</legend>
+                <br>
+                <br>
+                <p align=center> <label for=nombre>Nombre</label></p>
+
+                <input type=text name=nombre id=usuario>
+                <br>
+                <p align=center> <label for=texto> Mensaje</label></p>
+
+                <input type=text name=texto id=texto>
+
+    <A href="javascript:abrir()"> <button onclick=abrir() id=enviar> Enviar</A></button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+
+        function abrir() {
+            document.getElementById("vent").style.display="block";
+        }
+
+        function cerrar() {
+            document.getElementById("vent").style.display="none";
+
+        }
+
+        </script>
+
+
+
+
+</body>
+    <footer>
+        <p align=center>&copy Sheila Monteagudo Monteagudo</p>
+    </footer>
+
+
+
+
+</body>
+</html>

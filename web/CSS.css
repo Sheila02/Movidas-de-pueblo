@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 9%;
+    padding-top: 0px;
+    background-color:rgb(235, 203, 27);
+}
+
+header {
+    background-image:url(titulo.jpg.png);
+    padding: 256px;
+
+
+}
+
+
+.menu{
+    background-color: rgb(46, 200, 206);
+    padding: 30px;
+}
+
+
+.menu ul{
+    display: flex;
+
+
+}
+
+.menu ul li{
+    background-color: rgb(247, 228, 58);
+
+    padding: 20px;
+    border-radius: 1em;
+    margin: 0 auto;
+
+}
+
+.menu ul li a{
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+main {
+    display:flex;
+}
+
+.izquierda {
+
+    background-color: rgb(235, 235, 235);
+    width: 90%;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+    font-size:x-large;
+}
+
+
+.slider{
+
+    width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.slider ul{
+    list-style:none;
+    display: flex;
+
+    animation: slide 10s infinite;
+
+}
+
+@keyframes slide{
+
+0% {margin-left: 0px;}
+10% {margin-left: 0px;}
+
+25% {margin-left: -500px;}
+45% {margin-left: -700px;}
+
+
+
+}
+
+
+
+.texto {
+    padding: 10px;
+}
+
+.derecha{
+  padding: 30px;
+  width: 50%;
+background-color: rgb(255, 255, 255);
+font-size:x-large;
+
+
+}
+
+.fotos{
+    margin-top: 40px;
+display: flex;
+width: 1%;
+background-color: rgb(255, 255, 255);
+
+}
+
+
+footer {
+    margin-top: 30px;
+    margin-bottom: opx;
+    padding: 20px;
+    background-color: white;
+}
+
+.cuerpito {
+    text-align: center;
+
+
+
+}
+
+a{
+    text-decoration: none;
+}
+/* No me va el text decoration */
+
+.rojo {
+    background-color: rgb(221, 42, 10);
+    padding: 20px;
+   color: white;
+    border-radius: 1em;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.azul {
+    background-color: rgb(104, 190, 248);
+    padding: 20px;
+    border-radius: 1em;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.rosa {
+    background-color: rgb(248, 104, 147);
+    padding: 20px;
+    color: white;
+    border-radius: 1em;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+.cuerpotres {
+    background-color: white;
+    margin-top: 10px;
+
+
+
+   justify-content: center;
+}
+
+
+.manuel {
+
+   
+
+background: url(foto.gif.gif) no-repeat center center;
+border-radius: 4em;
+
+
+
+}
+
+
+.cuerpocuatro{
+margin-top: 30px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 50px;
+    font-size:25px;
+}
+
+.hacheuno{
+    color:rgb(0, 0, 0);
+background-color: rgb(209, 209, 209);
+padding: 20px;
+text-align: center;
+
+}
+
+
+.tede{
+    padding: 50px;
+
+}
+
+
+.boton{
+    background-color: rgb(27, 228, 218);
+    padding:10px;
+    border-radius: 2em;
+
+
+}
+
+.boton a{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.nosotros {
+
+display: flex;
+background-color: white;
+justify-content: center;
+margin-top: 20px;
+padding: 10px;
+
+
+}
+
+
+.Miguel{
+    background-color:rgb(240, 240, 240);
+    width: 400px;
+    margin-right: 10px;
+  text-align: justify;
+    padding:20px;
+      font-size:x-large;
+
+
+}
+
+.Sheila{
+    background-color:rgb(240, 240, 240);
+    width: 400px;
+    margin-right: 10px;
+    text-align: justify;
+    padding:20px;
+      font-size:x-large;
+
+
+
+}
+
+.Ana{
+    background-color:rgb(240, 240, 240);
+    width: 400px;
+    margin-right: 10px;
+    text-align: justify;
+    padding:20px;
+      font-size:x-large;
+
+}
+
+
+.Raúl{
+    background-color:rgb(240, 240, 240);
+    width: 400px;
+    text-align: justify;
+    padding:20px;
+      font-size:x-large;
+
+}
+
+
+.miguelfoto{
+
+    text-align: center;
+}
+
+.sheilafoto{
+
+    text-align: center;
+
+}
+
+
+.anafoto{
+
+    text-align: center;
+}
+
+.raulfoto{
+
+    text-align: center;
+}
+
+.curiosidadesCuerpo {
+background-color: white;
+margin-top: 20px;
+font-size: x-large;
+padding-top: 30px;
+
+}
+
+.curiosidades{
+    background-color: white;
+    padding: 30px;
+    font-size: x-large;
+}
+
+.curioso{
+    background-color: rgb(247, 240, 179);
+    padding:20px;
+    width: 1000px;
+    border-radius: 1em;
+    margin-left: 210px;
+}
+
+
+
+/*-----------------------------------------------  contacto --------------------------------------------*/
+
+#page{
+
+    background-color: rgb(118, 226, 226);
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 150px;
+    margin-top: 30px;
+
+    }
+
+    form{
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(255, 255, 255);
+    }
+
+    legend{
+
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+    }
+
+    label{
+      margin: 0 auto;
+
+     font-weight: bold;
+    }
+    input{
+        display: block;
+        margin: 0 auto;
+
+
+    }
+
+
+    #enviar{
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(238, 222, 83);
+    padding: 10px;
+    border-radius: 2em;
+    font-weight: bold;
+    width: 20%;margin-left: 300px;
+
+    }
+
+
+
+    #usuario{
+        text-align: center;
+        width: 30%;
+
+    }
+
+    #texto{
+        width: 400px;
+        height: 30px;
+        text-align: center;
+    }
+
+
+    .ventana{
+        background-color: rgb(252, 248, 45);
+        width: 30%;
+        color: black;
+        font-size: x-large;
+        text-align: center;
+        padding: 33px;
+        min-height: 250px;
+        border-radius: 22px;
+        position: absolute;
+        left: 34%;
+        top: 85%;
+        display: none;
+
+
+    }
+
+
+    .cerrar{
+        position: absolute;
+        right: 3px;
+        top: 1px;
+        padding: 10px;
+
+    }
+
+  
+
+/*----------------------------------------- RADIO ------------------------------------*/
+
+
+
+
+.radio{
+    background-color: white;
+    font-size:x-large;
+    padding: 30px;
+
+}
+
+
+.preguntas{
+    padding: 50px;
+}
+
+
+.horario{
+    background-color: white;
+    font-size:x-large;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+
+.videosXD{
+    background-color: white;
+    margin-top: 30px;
+    font-size:x-large;
+    padding:20px;
+}
+
+
+
+.tablaVideos{
+
+
+margin-left: 140px;
+
+}
+
+.video{
+    padding:20px;
+}
+
+
+
+/*----------------------------------------------  NOVEDADES  ------------------------------------------*/
+
+.novedades{
+background-color: white;
+
+}
+
+.cumpleaños{
+    padding: 70px;
+    display: flex;
+
+}
+
+.textoCumple{
+    background-color: rgb(231, 231, 231);
+    font-size:x-large;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+.descarga{
+    background: white;
+    margin-top: 30px;
+    padding: 50px;
+    font-size:x-large;
+    display: flex;
+
+
+}
+
+
+.fotoprograma{
+    justify-content: center;
+}
+
+.fotoprograma h3{
+    background-color: rgb(236, 233, 46);
+    font-size:x-large;
+    width: 350px;
+    margin-left: 190px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 2em;
+}
+
+
+.descripcion{
+background-color: rgb(231, 231, 231);
+width: 500px;
+margin-left: 200px;
+padding: 20px;
+
+}
